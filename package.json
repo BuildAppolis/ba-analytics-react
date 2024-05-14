@@ -1,0 +1,36 @@
+{
+  "name": "ba-analytics",
+  "version": "1.0.0",
+  "description": "React module for BA Analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildAppolis/ba-analytics-react.git"
+  },
+  "keywords": [
+    "analytics",
+    "react"
+  ],
+  "author": "GH5T <ghost@gcodes.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildAppolis/ba-analytics-react/issues"
+  },
+  "homepage": "https://github.com/BuildAppolis/ba-analytics-react#readme",
+  "dependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
